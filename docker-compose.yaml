@@ -8,3 +8,5 @@ services:
           CONF_TYPE: ${CONF_TYPE:-default}
     environment:
       - PROXY_HOST=${PROXY_HOST}
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
