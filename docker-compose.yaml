@@ -13,7 +13,7 @@ services:
       - PROXY_HOST=https://kasm_proxy:8443
     networks:
       # Connect the service to the Kasm network
-      - kasm_network_name 
+      - kasm_default_network 
     # The extra_hosts entry is no longer needed
     # extra_hosts:
     #   - "host.docker.internal:host-gateway"
