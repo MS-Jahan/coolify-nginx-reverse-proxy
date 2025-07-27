@@ -1,7 +1,7 @@
 # Use the official Nginx image as a base
 FROM nginx:latest
 
-ARG CONF_TYPE=msak
+ARG CONF_TYPE=default
 
 # Adding wget to the container, so we can run Coolify's Healthcheck
 RUN apt update \
