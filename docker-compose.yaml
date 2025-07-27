@@ -20,5 +20,5 @@ services:
 
 # Declare that the Kasm network is an existing, external network
 networks:
-  kasm_network_name:
+  kasm_default_network:
     external: true
